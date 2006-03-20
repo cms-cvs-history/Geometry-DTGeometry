@@ -1,7 +1,7 @@
 /** \file
  *
- *  $Date: 2006/02/07 18:06:37 $
- *  $Revision: 1.6 $
+ *  $Date: 2006/02/22 11:06:45 $
+ *  $Revision: 1.1 $
  *  \author N. Amapane - CERN
  */
 
@@ -73,17 +73,17 @@ const GeomDetUnit* DTGeometry::idToDet(DetId id) const{
     (theLayersMap.find(id))->second : 0 ;
 }
 
-const DTChamber* DTGeometry::chamber(const DTChamberId& id) const {
+const DTChamber* DTGeometry::chamber(DTChamberId id) const {
   return (theChambersMap.find(id) != theChambersMap.end()) ?
     (theChambersMap.find(id))->second : 0 ;
 }
 
-DTSuperLayer* DTGeometry::superLayer(const DTSuperLayerId& id) const {
+DTSuperLayer* DTGeometry::superLayer(DTSuperLayerId id) const {
   return (theSuperLayersMap.find(id) != theSuperLayersMap.end()) ?
     (theSuperLayersMap.find(id))->second : 0 ;
 }
 
-DTLayer* DTGeometry::layer(const DTLayerId& id) const {
+DTLayer* DTGeometry::layer(DTLayerId id) const {
   return (theLayersMap.find(id) != theLayersMap.end()) ?
     (theLayersMap.find(id))->second : 0 ;
 }
