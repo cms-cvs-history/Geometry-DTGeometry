@@ -8,7 +8,7 @@
 <library file=DTGeometryAnalyzer.cc name=testDTGeometry>
 </library>
 
-<bin name=testDTTopology file=testRunner.cpp,testDTTopology.cc>
+<bin name=testDTTopology file=testDTTopology.cpp>
   <use name=cppunit>
   <use name=Geometry/DTGeometry>
 </bin>
