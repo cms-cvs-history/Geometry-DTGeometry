@@ -2,4 +2,6 @@
 # This cfi should be included to build the DT geometry model.
 #
 
-es_module = DTGeometryESModule { }
+es_module = DTGeometryESModule {
+    untracked bool applyAlignment = false
+}
