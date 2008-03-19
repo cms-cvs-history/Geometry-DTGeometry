@@ -10,5 +10,4 @@
 
 <bin name=testDTTopology file=testDTTopology.cpp>
   <use name=cppunit>
-  <use name=Geometry/DTGeometry>
 </bin>
