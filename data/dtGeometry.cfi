@@ -1,7 +1,2 @@
-#
-# This cfi should be included to build the DT geometry model.
-#
-
-es_module = DTGeometryESModule {
-    untracked bool applyAlignment = false
-}
+# kept for backward compatibility
+include "Geometry/DTGeometryBuilder/data/dtGeometry.cfi"
