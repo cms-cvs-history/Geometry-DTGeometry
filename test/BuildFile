@@ -1,6 +1,7 @@
 <use name=Geometry/DTGeometry>
 <use name=Geometry/Records>
 <use name=FWCore/Framework>
+<use name=CondFormats/DataRecord>
 
 #<flags CXXFLAGS="-g -O0">
 
